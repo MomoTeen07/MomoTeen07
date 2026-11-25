@@ -4,7 +4,7 @@
 
 I focus on software quality, test automation and building reliable testing workflows.
 
-My projects explore automated testing across API, UI and end-to-end layers, with a particular interest in test orchestration and AI-assisted QA.
+My projects explore automated testing across API, UI and end-to-end layers, with a particular interest in test orchestration.
 
 ---
 
