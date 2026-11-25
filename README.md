@@ -95,8 +95,7 @@ A full-stack application used as a testing environment for a structured QA campa
 ## 📫 Contact
 
 - GitHub: https://github.com/MomoTeen07
-- LinkedIn: [Add your LinkedIn URL]
-- Email: [Add your professional email]
+- LinkedIn: https://www.linkedin.com/in/mohamed-abdoulkarim/
 
 ---
 
