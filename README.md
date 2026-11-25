@@ -3,7 +3,7 @@
 **QA Automation Engineer (junior) — Python · Playwright · API testing · CI/CD**
 
 <!-- À décommenter quand ces informations seront validées :
-📍 Ville, Belgique · Ouvert aux postes QA automation junior · [CV](lien) · contact@exemple.be
+📍 Ville, Belgique · Ouvert aux postes QA automation junior · CV (url) · contact (adresse)
 -->
 
 Je construis des **systèmes de test**, pas des catalogues de scripts : conception basée sur les
