@@ -82,18 +82,6 @@ A full-stack application used as a testing environment for a structured QA campa
 
 🔗 [View Repository](https://github.com/MomoTeen07/football-qa)
 
-### 3. EventFlow QA
-
-A testing project based on an event booking application.
-
-- API testing
-- Playwright and Selenium
-- Performance testing with Locust
-- CI/CD and automated reporting
-
-🔗 [View Repository](https://github.com/MomoTeen07/EventFlow_Moh)
-
----
 
 ## 🎯 Current Focus
 
