@@ -1,102 +1,73 @@
-# Hi, I'm Mohamed 👋
+# Abdoulkarim Mohamed
 
-### QA Automation Engineer | Test Engineering 
+**QA Automation Engineer (junior) — Python · Playwright · API testing · CI/CD**
 
-I focus on software quality, test automation and building reliable testing workflows.
+<!-- À décommenter quand ces informations seront validées :
+📍 Ville, Belgique · Ouvert aux postes QA automation junior · [CV](lien) · contact@exemple.be
+-->
 
-My projects explore automated testing across API, UI and end-to-end layers, with a particular interest in test orchestration.
+Je construis des **systèmes de test**, pas des catalogues de scripts : conception basée sur les
+risques, automatisation API et UI, exécution en CI, et rapports qu'une équipe peut réellement exploiter.
 
----
-
-## 👨‍💻 About Me
-
-- Focused on Software Testing and QA Automation
-- Working with Python and automated testing frameworks
-- Interested in API testing, UI testing and test engineering
-- Exploring AI-assisted test orchestration
-- Building practical projects with CI/CD and automated reporting
-
-## 🛠️ Technical Skills
-
-**Programming**
-- Python
-- JavaScript
-
-**Test Automation**
-- PyTest
-- Playwright
-- Selenium
-- Postman
-- Newman
-
-**Quality & Reporting**
-- Allure
-- Squash TM
-- API Testing
-- End-to-End Testing
-- Test Case Design
-
-**DevOps & Infrastructure**
-- GitHub Actions
-- Docker
-- Docker Compose
-
-**Backend & Databases**
-- FastAPI
-- SQLAlchemy
-- PostgreSQL
-- SQLite
-
-**AI & Orchestration**
-- LangGraph
-- LLM API integrations
+> **Statut — deux projets publics, en cours de finalisation.**
+> [`football-qa`](https://github.com/MomoTeen07/football-qa) : application support et campagne de test.
+> [`football-qa-agents`](https://github.com/MomoTeen07/football-qa-agents) : orchestrateur de tests multi-agents.
+> La campagne **V1 est terminée et figée** ; la **V3 est en cours**. Je préfère l'écrire ici plutôt que
+> de laisser croire que tout est livré — le détail est dans chaque `docs/ROADMAP.md`.
 
 ---
 
-## 🚀 Featured Projects
+## Ce que je sais faire — et où c'est vérifiable
 
-### 1. Football QA Agents
+| Compétence | Preuve dans le code |
+| --- | --- |
+| Conception de tests et analyse de risques (P × I) | [`TEST_PLAN.md`](https://github.com/MomoTeen07/football-qa/blob/main/docs/TEST_PLAN.md) |
+| Cas de test manuels (36 exécutés en V1, 50 conçus) | [`TEST_CASES.md`](https://github.com/MomoTeen07/football-qa/blob/main/docs/TEST_CASES.md) |
+| Traçabilité exigence → cas → exécution → anomalie | [`TRACEABILITY.md`](https://github.com/MomoTeen07/football-qa/blob/main/docs/TRACEABILITY.md) |
+| Rapports d'anomalies (gravité, preuve, correctif proposé) | [`ANOMALIES.md`](https://github.com/MomoTeen07/football-qa/blob/main/docs/ANOMALIES.md) |
+| Synthèse de campagne et risques résiduels | [`CAMPAIGN_REPORT.md`](https://github.com/MomoTeen07/football-qa/blob/main/docs/CAMPAIGN_REPORT.md) |
+| Automatisation UI — Playwright, Page Object Model | [`tests/playwright/`](https://github.com/MomoTeen07/football-qa/tree/main/tests/playwright) |
+| Tests de contrat API — pytest + JSON Schema | [`tests/pytest/`](https://github.com/MomoTeen07/football-qa/tree/main/tests/pytest) |
+| API chaînée — Postman / Newman | [`postman/`](https://github.com/MomoTeen07/football-qa/tree/main/postman) |
+| CI/CD — GitHub Actions, Docker, artefacts de test | [`ci.yml`](https://github.com/MomoTeen07/football-qa/blob/main/.github/workflows/ci.yml) |
+| Sécurité — JWT falsifié, cloisonnement des comptes | [`test_security.py`](https://github.com/MomoTeen07/football-qa/blob/main/tests/pytest/tests/test_security.py) |
+| Orchestration multi-agents — LangGraph, LLM | [`football-qa-agents`](https://github.com/MomoTeen07/football-qa-agents) |
+| Application full-stack (support de test) | [`backend/`](https://github.com/MomoTeen07/football-qa/tree/main/backend) · [`frontend/`](https://github.com/MomoTeen07/football-qa/tree/main/frontend) |
 
-A multi-agent QA system designed to orchestrate software testing workflows.
+Chaque ligne pointe vers un fichier, pas vers une déclaration.
 
-- Specialized agents and task orchestration
-- API and UI test automation
-- Telegram integration
-- Automated reporting
-- Security controls and resilient execution
-- PyTest and GitHub Actions
+## Projets
 
-🔗 [View Repository](https://github.com/MomoTeen07/football-qa-agents)
+### [Football QA](https://github.com/MomoTeen07/football-qa) — application full-stack et campagne de test
 
-### 2. Football QA
+Application FastAPI / React / PostgreSQL (18 endpoints, JWT, migrations Alembic) utilisée comme
+**système sous test**, volontairement non corrigée.
 
-A full-stack application used as a testing environment for a structured QA campaign.
+- **V1 terminée et figée** : 36 cas manuels, 118 vérifications automatisées, 5 anomalies documentées
+- **V3 en cours** : fonctionnalités fusionnées, campagne manuelle à mener
+- Tests d'API (pytest + JSON Schema), E2E Playwright en Page Object Model, collection Postman chaînée
+- CI Docker avec artefacts Allure, Playwright et Postman à chaque pull request
 
-- Manual test case design
-- API testing with PyTest and Postman
-- UI automation with Playwright
-- PostgreSQL and FastAPI
-- Docker-based environment
-- CI/CD with GitHub Actions
-- Allure reporting
+`Python` · `FastAPI` · `PostgreSQL` · `Playwright` · `pytest` · `Postman` · `Allure` · `Docker`
 
-🔗 [View Repository](https://github.com/MomoTeen07/football-qa)
+### [Football QA Agents](https://github.com/MomoTeen07/football-qa-agents) — orchestrateur de tests multi-agents
 
+Sept agents spécialisés autour d'un manager : analyse, conception, API, UI, DevOps, reporting.
+Une instruction en langage naturel déclenche une mission complète, de la planification au rapport Allure.
 
-## 🎯 Current Focus
+- Orchestration **LangGraph**, pilotage **Telegram**, exécution sur une stack isolée
+- **161 tests** couvrent le système d'orchestration lui-même (store, reprise, sécurité, bureau virtuel)
+- Garde-fous : cibles réseau limitées à la stack de test, secrets masqués, publication Git opt-in
+- Ruff et CI sur chaque pull request, sans clé ni réseau
 
-- Improving test automation architecture
-- Building maintainable and reusable testing frameworks
-- Exploring intelligent QA orchestration
-- Improving test reporting and quality analysis
+`Python` · `LangGraph` · `Playwright` · `Telegram` · `SQLite` · `Allure` · `Docker`
 
----
+## Comment je travaille
 
-## 📫 Contact
+- **Piloté par le risque** : chaque campagne commence par une analyse probabilité × impact, pas par l'écriture de scripts.
+- **Honnête sur les échecs** : les anomalies sont documentées, rejouées et marquées `xfail(strict=True)` — jamais supprimées pour faire passer la CI.
+- **La CI comme garde-fou** : une suite verte n'est pas un argument, c'est une condition d'entrée.
 
-- GitHub: https://github.com/MomoTeen07
-- LinkedIn: https://www.linkedin.com/in/mohamed-abdoulkarim/
+## Contact
 
----
-
-*Quality is not just about finding bugs. It's about building confidence in software.*
+[LinkedIn](https://www.linkedin.com/in/mohamed-abdoulkarim/) · [GitHub](https://github.com/MomoTeen07)
