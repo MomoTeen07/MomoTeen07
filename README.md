@@ -1,6 +1,6 @@
 # Hi, I'm Mohamed 👋
 
-### QA Automation Engineer | Test Engineering | AI-assisted QA
+### QA Automation Engineer | Test Engineering 
 
 I focus on software quality, test automation and building reliable testing workflows.
 
